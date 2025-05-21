@@ -9,10 +9,14 @@ import logging
 import sys
 import time
 from datetime import datetime, timezone
-
+from dotenv import load_dotenv
+ 
 from utils.logging_utils import setup_logging
 from core.scanner import EarningsScanner
 from utils.discord_webhook import send_webhook
+
+
+load_dotenv()
 
 def main():
     parser = argparse.ArgumentParser(

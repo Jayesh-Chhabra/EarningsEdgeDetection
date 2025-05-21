@@ -11,3 +11,4 @@ yahooquery>=2.3.7
 webdriver-manager>=4.0.0
 mysql-connector-python>=8.2.0
 curl_cffi==0.10.0
+python-dotenv>=1.1.0

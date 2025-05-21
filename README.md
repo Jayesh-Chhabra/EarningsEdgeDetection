@@ -217,10 +217,9 @@ python scanner.py -u --date "04/20/2025"
    export FINNHUB_API_KEY="your_api_key_here"
    ```
 
-   For persistent use, add to your shell profile (~/.bashrc, ~/.zshrc, etc.):
-   ```bash
-   echo 'export FINNHUB_API_KEY="your_api_key_here"' >> ~/.bashrc  # Or ~/.zshrc
-   source ~/.bashrc  # Or ~/.zshrc
+   For persistent use, copy .env.example to .env and add your API key:
+   ```dotenv
+    FINNHUB_API_KEY=<your_api_key_here>
    ```
 
 ### Using All Data Sources
